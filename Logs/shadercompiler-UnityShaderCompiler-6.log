@@ -237,3 +237,6 @@ Cmd: compileSnippet
   error: 1 plat 28 at /Users/mayashinehe/Documents/Github/cm2-unity1-module2-template/Library/PackageCache/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/ShaderLibrary/Shim/SurfaceShaderProxy.hlsl(3): 'UNITY_MATRIX_I_M': macro redefinition. Previous definition found at /Users/mayashinehe/Documents/Github/cm2-unity1-module2-template/Library/PackageCache/com.unity.render-pipelines.core/ShaderLibrary/UnityInstancing.hlsl:475.
  ok=1 outsize=4270
 
+Cmd: shutdown
+
+Quitting shader compiler process
