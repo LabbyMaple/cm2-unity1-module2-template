@@ -11,7 +11,7 @@ Using pre-set license
 Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/6000.0.24f1/Unity.app/Contents/MacOS/Unity
+/Applications/Unity/Hub/Editor/6000.0.24f1-arm64/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53382
+61808
 -job-worker-count
 3
 -background-job-worker-count
@@ -68,7 +68,7 @@ Successfully changed project path to: /Users/mayashinehe/Documents/Github/cm2-un
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8357203776]  Target information:
 
-Player connection [8357203776]  * "[IP] 192.168.0.232 [Port] 0 [Flags] 2 [Guid] 2766457727 [EditorId] 2766457727 [Version] 1048832 [Id] OSXEditor(0,Mayas-MacBook-Air-3.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8357203776]  * "[IP] 192.168.0.232 [Port] 0 [Flags] 2 [Guid] 1633731132 [EditorId] 1633731132 [Version] 1048832 [Id] OSXEditor(0,Mayas-MacBook-Air-3.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8357203776] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8357203776] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -82,10 +82,10 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.26 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.24f1 (11fa355cd605)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.24f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.24f1-arm64/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/mayashinehe/Documents/Github/cm2-unity1-module2-template/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
  preferred device: Apple M2 (high power)
@@ -94,49 +94,49 @@ Metal devices available: 1
 Using device Apple M2 (high power)
 Initializing Metal device caps: Apple M2
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.24f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.24f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/6000.0.24f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56142
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.24f1-arm64/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.24f1-arm64/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.0.24f1-arm64/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56389
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/6000.0.24f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/6000.0.24f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002548 seconds.
-- Loaded All Assemblies, in  0.290 seconds
+Trying to register platform support module: /Applications/Unity/Hub/Editor/6000.0.24f1-arm64/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll (that doesn't exist). Retrying without overrides.
+Platform support module is not available: /Applications/Unity/Hub/Editor/6000.0.24f1-arm64/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.24f1-arm64/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001746 seconds.
+- Loaded All Assemblies, in  0.421 seconds
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.312 seconds
-Domain Reload Profiling: 602ms
-	BeginReloadAssembly (95ms)
+- Finished resetting the current domain, in  0.306 seconds
+Domain Reload Profiling: 727ms
+	BeginReloadAssembly (195ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (30ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (38ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (125ms)
-		LoadAssemblies (95ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (195ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (122ms)
-			TypeCache.Refresh (121ms)
-				TypeCache.ScanAssembly (107ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (124ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (312ms)
+	FinalizeReload (306ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (284ms)
+		SetupLoadedEditorAssemblies (267ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (147ms)
-			ProcessInitializeOnLoadMethodAttributes (99ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -144,125 +144,147 @@ Domain Reload Profiling: 602ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.868 seconds
-Refreshing native plugins compatible for Editor in 0.18 ms, found 2 plugins.
+- Loaded All Assemblies, in  1.975 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.497 seconds
-Domain Reload Profiling: 1365ms
-	BeginReloadAssembly (621ms)
+- Finished resetting the current domain, in  0.723 seconds
+Domain Reload Profiling: 2699ms
+	BeginReloadAssembly (1039ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (30ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (185ms)
-		LoadAssemblies (142ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (871ms)
+		LoadAssemblies (514ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (77ms)
-			TypeCache.Refresh (64ms)
-				TypeCache.ScanAssembly (55ms)
-			BuildScriptInfoCaches (9ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (497ms)
+		AnalyzeDomain (392ms)
+			TypeCache.Refresh (298ms)
+				TypeCache.ScanAssembly (260ms)
+			BuildScriptInfoCaches (76ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (724ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (363ms)
+		SetupLoadedEditorAssemblies (561ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (12ms)
-			ProcessInitializeOnLoadAttributes (330ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (458ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
-Launching external process: /Applications/Unity/Hub/Editor/6000.0.24f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
-Refreshing native plugins compatible for Editor in 0.18 ms, found 2 plugins.
+Launching external process: /Applications/Unity/Hub/Editor/6000.0.24f1-arm64/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.28 seconds
+Refreshing native plugins compatible for Editor in 2.12 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1506 unused Assets / (0.6 MB). Loaded Objects now: 2128.
-Memory consumption went from 105.0 MB to 104.4 MB.
-Total: 4.710125 ms (FindLiveObjects: 0.421875 ms CreateObjectMapping: 0.053042 ms MarkObjects: 3.860500 ms  DeleteObjects: 0.374209 ms)
+Unloading 400 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7169 unused Assets / (19.4 MB). Loaded Objects now: 7793.
+Memory consumption went from 253.7 MB to 234.3 MB.
+Total: 48.634250 ms (FindLiveObjects: 7.627333 ms CreateObjectMapping: 0.738000 ms MarkObjects: 28.899417 ms  DeleteObjects: 11.367542 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2927819.584960 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(a6119305e0f7f4dbc80aec658c6aa35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(a6119305e0f7f4dbc80aec658c6aa35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2221b3929e56795375db63d2e7ca0d3') in 0.003491458 seconds
+  Time since last request: 4041900.722386 seconds.
+  path: Assets/Scenes/Mini-Project-2.unity
+  artifactKey: Guid(43fca621cabb14378ae7c6a1f0ec3937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mini-Project-2.unity using Guid(43fca621cabb14378ae7c6a1f0ec3937) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76444dbf98c44642f10a7d7ad9447c07') in 0.009730333 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.904603 seconds.
-  path: Assets/Materials/Textures/FloorTile/FloorTileDiffuse.png
-  artifactKey: Guid(73bc6c9863b614043832693114d4546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/FloorTile/FloorTileDiffuse.png using Guid(73bc6c9863b614043832693114d4546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18341fd363d4d3dae5fd2dc4eca55faa') in 0.067850416 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000042 seconds.
+  path: Assets/SimpleNaturePack/Scenes/PostProcessing/PostProcessing_SimpleNaturePack.asset
+  artifactKey: Guid(5d311941da9276f48a848f448201b513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Scenes/PostProcessing/PostProcessing_SimpleNaturePack.asset using Guid(5d311941da9276f48a848f448201b513) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1cf342f1be12ca548187f31d39ad9e2') in 0.020435958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Materials/Textures/FloorTile/FloorTileNormal.png
-  artifactKey: Guid(d9f4fb2a51c5e4b8ca9fda81bff58970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/FloorTile/FloorTileNormal.png using Guid(d9f4fb2a51c5e4b8ca9fda81bff58970) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21543fa5db33fec1302905fa3d04fb14') in 0.054530667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000149 seconds.
+  path: Assets/SimpleNaturePack/Scenes/PostProcessing
+  artifactKey: Guid(0bcd04f45442cb246bbd9280c0ac6cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Scenes/PostProcessing using Guid(0bcd04f45442cb246bbd9280c0ac6cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca78efc13d12d6b7f7b83d4507654f7e') in 0.00033775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 333.473564 seconds.
-  path: Assets/Materials/Textures/3crates/crate0/crate0_diffuse.png
-  artifactKey: Guid(a260771fca8c64b688da0021e83ccc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/3crates/crate0/crate0_diffuse.png using Guid(a260771fca8c64b688da0021e83ccc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8997740e5b5d8f3b93b7d6f6651b5ab1') in 0.019009209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000151 seconds.
+  path: Assets/Scenes/Lesson 2-5.unity
+  artifactKey: Guid(b0b1f4baa9c384382b81c35c4d9f0a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lesson 2-5.unity using Guid(b0b1f4baa9c384382b81c35c4d9f0a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90fd35cd5dbbc8267f4b57494a97c803') in 0.000216083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.658558 seconds.
-  path: Assets/Materials/Textures/3crates/crate1/crate1_diffuse.png
-  artifactKey: Guid(189627da3b5434393a8f832422b6b549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/3crates/crate1/crate1_diffuse.png using Guid(189627da3b5434393a8f832422b6b549) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5d83994fb0a8507d79e711157499d20') in 0.004360917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000083 seconds.
+  path: Assets/SimpleNaturePack/Scenes/PostProcessing/URP_SimpleNaturePack.asset
+  artifactKey: Guid(c7e582d21ef96944bbc8ab11547f9d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Scenes/PostProcessing/URP_SimpleNaturePack.asset using Guid(c7e582d21ef96944bbc8ab11547f9d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bafe8e3790e8cca0af9a2b2d305cf68') in 0.009881542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
 
 ========================================================================
-Received Import Request.
-  Time since last request: 3.471014 seconds.
-  path: Assets/Materials/Textures/3crates/crate2/crate2_diffuse.png
-  artifactKey: Guid(b6b0d2e24dd2b47fca4ba27d58d102fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/3crates/crate2/crate2_diffuse.png using Guid(b6b0d2e24dd2b47fca4ba27d58d102fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03aeaf68210a49c8bbf4eceb0d59fbf5') in 0.003849958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x333d4b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.698 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.834 seconds
+Domain Reload Profiling: 1537ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (453ms)
+		LoadAssemblies (277ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (227ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (194ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (835ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (613ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (470ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 184 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7167 unused Assets / (13.9 MB). Loaded Objects now: 7798.
+Memory consumption went from 212.3 MB to 198.4 MB.
+Total: 24.396083 ms (FindLiveObjects: 1.353250 ms CreateObjectMapping: 0.704667 ms MarkObjects: 12.479875 ms  DeleteObjects: 9.857458 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 311.557625 seconds.
-  path: Assets/Materials/Textures/Wall/WallDiffuse.png
-  artifactKey: Guid(094e521056259472cbcaba5a7bc4ca09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/Wall/WallDiffuse.png using Guid(094e521056259472cbcaba5a7bc4ca09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e00ad71abee8e11e6f3743e9df69e15') in 0.019130167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 229.303861 seconds.
-  path: Assets/Materials/Textures/Wood/wood2.png
-  artifactKey: Guid(a0e94041fb78e4979abdb284b9b212f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/Wood/wood2.png using Guid(a0e94041fb78e4979abdb284b9b212f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40f6e269a98105e038618ad298a277e8') in 0.017019375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Materials/Textures/Wood/wood5.png
-  artifactKey: Guid(a40efc326d3ad405595aab8dbf98081d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/Wood/wood5.png using Guid(a40efc326d3ad405595aab8dbf98081d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91aab44c4c86b9419deca4684b35af90') in 0.005416708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
+Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
